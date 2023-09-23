@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TTTstyle.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+      <div class="logo">
+        <a href="https://theashhar.webflow.io/" target="_blank"><img src="Assets/theAshharLogo.svg" alt="logo"></a>
+    </div>
+
+    <div class="board" id="board">
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+        <div class="cell" cellData></div>
+    </div>
+    <div class="playerStatus">
+        Player vs Player
+    </div>
+    <div class="winningMsg">
+        <h1 id="winningMsgText"></h1>
+        <button class="reset" id="resetBtn">Restart</button>
+    </div>
+    <audio src="Assets/clickSound.wav"
+    style="display: none;"
+    id="clickSound"
+    type="audio/mpeg">
+    
+    <audio src="Assets/victorySound.wav"
+    style="display: none;"
+    id="victorySound"
+    type="audio/mpeg">
+    
+    <script src="/CWH_course/Tic Tac Toe/TTTscript.js"></script>
+</body>
+</html>
